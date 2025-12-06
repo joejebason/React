@@ -11,6 +11,9 @@ const Form = ()=>{
         setName(event.target.value)
     }
 
+    console.log(inputName, "name");
+    
+
     const handleClick = (event)=>{
         setSubmit(name);
         event.preventDefault();
